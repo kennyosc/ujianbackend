@@ -24,3 +24,7 @@ CREATE TABLE movcat (
         REFERENCES categories (id)
         ON UPDATE CASCADE ON DELETE CASCADE
 );
+
+SELECT * FROM movies;
+SELECT * FROM categories;
+SELECT * FROM movcat;
